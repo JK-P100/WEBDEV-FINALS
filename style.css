@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", serif;
+    background-color: #F8F6EB;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header{
+    padding: 2em;
+}
+
+/* Typography */
+
+.icons{
+    background-color: #8ACFF0;
+    padding: 0.5em;
+    border-radius: 34px;
+    display: flex;
+    gap: 1.5em;
+}
+
+.icons i{
+    font-size: 1.7rem;
+}
+
+img{
+    width: 100%;
+}
+
+/* Header Layout */
+
+nav{
+}
+
+.nav-ul{
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 3em;
+    font-size: 0.95rem;
+    color: white;
+    font-weight: 600;
+}
+
+/* Second Section */
+
+/* Typography */
+
+h1{
+    font-size: 3.5rem;
+}
+
+span{
+    color: #DD8FAF;
+}
+
+.first-paragraph{
+    font-weight: 600;
+    font-size: 1.05rem;
+    width: 93%;
+}
+
+.first-button{
+    width: 30%;
+    padding: 0.95em;
+    font-weight: 600;
+    border: none;
+    border-radius: 34px;
+    font-size: 0.95rem;
+    background-color: #8ACFF0;
+}
+
+/* Second Section Layout */
+
+.first-section{
+    position: relative;
+}
+
+.parent-content{
+    display: flex;
+}
+
+.no-content{
+    width: 30%;
+}
+
+.first-image{
+    width: 70%;
+}
+
+.first-content{
+    background-color: #F8F6EB;
+    display: flex;
+    position: absolute;
+    width: 55%;
+    height: 556px;
+    top: 40px;
+}
+
+.invisible{
+    width: 27%;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+/* Second Section */
+
+/* Typography */
+
+.h1{
+    color: #F8F6EB;
+}
+
+.box-row i{
+    font-size: 3rem;
+}
+
+.box-row p{
+    font-size: 1.03rem;
+    font-weight: 500;
+}
+
+.box-row button{
+    width: 55%;
+    padding: 0.95em;
+    background-color: #8ACFF0;
+    border: none;
+    font-weight: 600;
+    border-radius: 34px;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+/* Second Section Layout */
+
+.second-section{
+    background-color: #DD8FAF;
+}
+
+.first-column{
+    display: flex;
+    margin-top: -4px;
+    height: 250px;
+
+}
+
+.second-title{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.second-paragraph{
+    padding: 2em;
+    font-size: 0.97rem;
+    font-weight: 600;
+    width: 45.2%;
+    background-color:#8ACFF0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.second-column{
+    margin-top: 4em;
+    display: flex;
+    gap: 80px;
+    padding-bottom: 4em;
+}
+
+.box-row{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Third Section */
+
+/* Typography */
+
+.third-paragraph{
+    margin-top: 0.8em;
+    width: 90%;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Third Section Layout */
+
+.third-section{
+    padding-bottom: 7em;
+}
+
+.third-title{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-content{
+    margin-top: 4em;
+    display: flex;
+    gap: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unc-img{
+    width: 30%;
+}
+
+.address-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+
+/* Third Section */
+
+/* Typography */
+
+.faq-question i{
+    font-size: 1.5rem;
+}
+
+.faq-question p{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Third Section Layout */
+
+.fourth-main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-section{
+    text-align: center;
+    margin-bottom: 7em;
+}
+
+.fourth-h1{
+    width: 70%;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.faq-question{
+    margin-top: 3em;
+    border-bottom: 1px solid black;
+    display: flex;
+    padding-bottom: 1.4em;
+    justify-content: space-between;
+    
+}
+
+
+/* Footer Section */
+
+/* Typography */
+
+.h3-footer{
+    font-size: 1em;
+}
+
+.number i{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.Copyright p{
+    font-weight: 600;
+}
+
+/* Footer Section Layout */
+
+.footer-nav-container{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-first-column{
+    background-color: #DD8FAF;
+}
+
+.address{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-number{
+    display: flex;
+    gap: 70px;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
